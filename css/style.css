@@ -1,0 +1,65 @@
+body {
+    font-family: 'Vesper Libre', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../imgs/photo_4_2023-12-14_14-32-49.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+  
+}
+h1{
+    color: #f4f4f4 ;
+}
+
+
+.container i {
+    color:   rgb(85, 70, 40);
+
+    font-size: 60px;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 55%;
+    border-radius: 500px;
+    box-shadow: 0 0 10px #f4f4f4;
+    color: #f4f4f4;
+    background-color: #f4f4f400;
+}
+.quotecon {
+    margin-bottom: 20px;
+  
+}
+
+.quotetxt {
+    font-size: 1.5rem;
+    color:  #f4f4f4;
+}
+
+.quoteauthor {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+    color: burlywood;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color:  rgb(85, 70, 40);
+    color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+  
+}
+
+button:hover {
+   
+    background-color: rgba(85, 70, 40, 0.359);
+}
